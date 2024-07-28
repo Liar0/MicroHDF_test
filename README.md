@@ -45,22 +45,32 @@ Workflow: Metagenomic abundance data embedded into the phylogenetic tree is tran
 
 `python multi_channel_MicroHDF.py`<BR/>
 
-
+----------------------------
 
 ## Data
 #### Instruction about input data.<BR/>
 
 To use MicroHDF, you need to provide microbial species abundance matrix (csv format), raw data set, and phylogenetic tree matrix as input. Here is an example.
 
--  microbial species abundance matrix<br/>
+
+
+<div style="display: flex; justify-content: space-between;">
+<div style="flex: 1; text-align: left;">
+<p style="text-align:left;">
+microbial species abundance matrix<br/>
+</p>
 
 | sampleID          |s__Methanobrevibacter_smithii  | ...     |
 |--------------|------------|------------|
 | HD-10 |0.0  |...   |
 | HD-11|0.0   |...   |
 | HD-12  |0.0   |...   |
+</div>
+<div style="flex: 1; text-align: center;">
+<p style="text-align:left;">
+raw data set<br/>
+</p>
 
-- raw data set<br/>
 
 | sampleID     |disease  | ...     |
 |--------------|------------|------------|
@@ -68,15 +78,21 @@ To use MicroHDF, you need to provide microbial species abundance matrix (csv for
 | HD-11|1  |...   |
 | HD-12  |1   |...   |
 
-- phylogenetic tree matrix<br/>
+</div>
+<div style="flex: 1; text-align: right;">
+<p style="text-align:left;">
+phylogenetic tree matrix<br/>
+</p>
 
 |      |95818  | ...     |
 |--------------|------------|------------|
 |1|0.0 |...   |
 | 2|0.0  |...   |
 | 3  |0.0   |...   |
+</div>
+</div>
 
-
+-------------------------------
 
 #### The processing of data
 
