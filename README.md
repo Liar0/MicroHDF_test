@@ -8,7 +8,7 @@ Input and core components:   __MicroHDF is composed of two modules: generating f
 
 
 
-<img src="./Figure 1.png" width = "800" height = "450" > 
+<img src="https://github.com/Liar0/MicroHDF_test/blob/master/Figure1.png" width = "800" height = "450" > 
 
 Workflow: Metagenomic abundance data embedded into the phylogenetic tree is transformed to new feature matrixes by two different tree traversals in the feature matrix generation module.  Next, different feature representation are learned from the cascade layers with different deep forest-based units.  Finally, the learned features are aggregated to output layer and set to perform classification tasks.
 
